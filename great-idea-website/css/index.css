@@ -64,3 +64,93 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 880px;
+	margin-left: 20%;
+}
+
+h2, h3, h4 {
+	font-family: 'Righteous', cursive;
+}
+
+nav	{
+	width: 880px;
+	margin-bottom: 75px;
+	background-color: lightblue;
+	position: fixed; 
+    
+}
+
+li {
+	display: inline;
+	padding: 26px;
+}
+
+header	{
+	display: block;
+	border-bottom: 2px solid black;
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 72px;
+	width: 420px;
+	height: 200px;
+	text-align: center;
+	margin-left: 20px;
+	vertical-align: top;
+	margin-top: 50px;
+	font-family: 'Righteous', cursive;
+}
+
+.header {
+	display: inline-block;
+	margin-right: -120px;
+}
+
+.started {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+ 	padding: 3px 25px;
+}
+
+p {
+	text-align: left;
+	display: inline-block;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+	text-align: left;
+}
+
+.two-columns {
+	column-count: 2;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.three-columns {
+	column-count: 3;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.contact {
+	border-top: 2px solid black;
+	margin-top: 15px;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
